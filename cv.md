@@ -4,7 +4,6 @@
 
 ## Frontend Developer
 
----
 ## Contact info:
 
 * E-mail: ya@amandrik.ru
@@ -12,14 +11,13 @@
 * LinkedIn: Anna Mandrik
 * Telegram: @AnnaMandrik
 * Discord: anna_mandrik
-* GitHab: [AnnaMandrik](https://github.com/AnnaMandrik)
+* GitHab: [AnnaMandrik](https://github.com/AnnaMandrik)  [AnnMandrik](https://github.com/AnnMandrik)
+* GitLab: [annamandrik1984](https://gitlab.deluxe-interactive.com/annamandrik1984)  [Anna](https://gitlab.com/AnnMandrik)
 
----
 ## About me:
 
-I have worked for a long time as an analyst in various fields and as an import logistician. Until three years ago I began to study website layout and programming in js - and since then I have been engaged only in programming. A lot of courses, work as an intern (for more than a year), custom projects and test projects - gives a lot of practice. I can't turn off this road and continue to delve into various aspects of website and application programming.
+I have worked for a long time as an analyst in various fields and as an import logistician. Until three years ago I began to study website layout and programming in js - and since then I have been engaged only in programming. A lot of courses, work as an intern (for more than a year), custom projects and test projects - gives a lot of practice. I can't turn off this road and I continue to delve into various aspects of website and application programming (write code of Yandex Metrika in clients sites for example).
 
----
 ## Courses:
 
 * HTML & CSS. Adaptive layout and automation html academy (interactive online courses)
@@ -27,10 +25,9 @@ I have worked for a long time as an analyst in various fields and as an import l
 	[Certificate](https://assets.htmlacademy.ru/certificates/intensive/265/95434.pdf)
 
 * React Developer Profession html academy (interactive online courses)
-  April - November 2021
+    April - November 2021
 	[Certificate](https://assets.htmlacademy.ru/certificates/profession/29/95434.pdf)
 
----
 ## Skills:
 
 * HTML5 
@@ -45,7 +42,6 @@ I have worked for a long time as an analyst in various fields and as an import l
 * Git
 * Gulp, Webpack 
 
----
 ## Projects:
 
 * [Big trip](https://github.com/AnnaMandrik/95434-big-trip-15)
