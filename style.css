@@ -79,7 +79,7 @@ svg {
   fill: none;
 }
 
-ul {
+/* ul {
   list-style: none;
   margin: 0;
   padding-left: 0;
@@ -88,7 +88,7 @@ ul {
 a {
   text-decoration: none;
   color: #000000;
-}
+} */
 
 p,
 span {
@@ -140,4 +140,11 @@ span {
 .page-content__wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100px;
+  padding-top: 30px;
 }
