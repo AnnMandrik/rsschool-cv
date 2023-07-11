@@ -1,0 +1,150 @@
+@font-face {
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Golos";
+    font-display: swap;
+    src:
+      url("./fonts/golos-text_regular.woff2") format("woff2"),
+      url("./fonts/golos-text_regular.woff") format("woff");
+}
+  
+@font-face {
+    font-style: normal;
+    font-weight: 500;
+    font-family: "Golos";
+    font-display: swap;
+    src:
+      url("./fonts/golos-text_medium.woff2") format("woff2"),
+      url("./fonts/golos-text_medium.woff") format("woff");
+}
+  
+@font-face {
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Golos";
+    font-display: swap;
+    src:
+      url("./fonts/golos-text_bold.woff2") format("woff2"),
+      url("./fonts/golos-text_bold.woff") format("woff");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+html {
+  font-family: "Golos", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  line-height: 26px;
+  overflow-wrap: break-word;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+svg {
+  fill: none;
+}
+
+/* ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+} */
+
+p,
+span {
+  margin: 0;
+}
+
+
+@media (max-width: 1023px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.header {
+    margin: 20px;
+}
+
+.header__toggle {
+    display: none;
+}
+
+.main-nav {
+    margin: 20px 0;
+}
+
+.main-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page-content__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100px;
+  padding-top: 30px;
+}
