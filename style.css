@@ -48,7 +48,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  color: #000000;
+  color: #202026;
   line-height: 26px;
   overflow-wrap: break-word;
 }
@@ -62,7 +62,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 1440px;
   margin: 0 auto;
   padding: 0;
@@ -140,7 +140,7 @@ h2 {
 }
 
 .header {
-    margin: 20px;
+    margin: 20px 50px;
 }
 
 .header__toggle {
@@ -177,8 +177,8 @@ h2 {
 
 .wrapper-left {
   margin-top: -110px;
-  margin-bottom: -100px;
-  background-color: #000000;
+  margin-bottom: -150px;
+  background-color: #202026;
 }
 
 .education,
@@ -208,6 +208,7 @@ h2 {
 .education__item,
 .languages__item {
   margin-left: 30px;
+  padding-right: 10px;
 }
 
 .education__item p {
@@ -314,20 +315,56 @@ h2 {
 .projects__list {
   display: grid;
   column-gap: 30px;
-  row-gap: 30px;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-columns: 1fr 1fr;
   width: 100%;
   margin-left: -25px;
+  margin-bottom: 50px;
 }
 
-
-.example__code {
-  margin: 30px 0 0 0;
+.projects__item:not(:last-child) {
+  margin-bottom: 30px;
 }
+
+.projects__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 261px;
+}
+
+.projects__img {
+  max-height: 205px;
+  width: 100%;
+  margin-bottom: 30px;
+  flex-grow: 1;
+}
+
+.projects__text {
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+}
+
 
 .footer {
-  display: flex;
-  justify-content: flex-end;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   min-height: 100px;
-  /* padding-top: 30px; */
+  padding-top: 30px;
+  border-top: 3px solid #FECB00;
+}
+
+.footer__wrapper-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px 50px;
+}
+
+.footer__git {
+  padding-top: 10px;
+}
+
+.footer__date {
+  padding-top: 20px;
 }
